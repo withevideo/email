@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	email "github.com/withevideo/email"
+	"github.com/withevideo/email"
 )
 
 func TestIsFree(t *testing.T) {

@@ -15,10 +15,12 @@ const expectFalse = isFreeEmail('someone@acme.com'); // Returns false
 
 ### Go
 
+This package also provides a Go implementation.
+
 ```go
 package main
 
-import email "github.com/withevideo/is-free-email"
+import "github.com/withevideo/email"
 
 var expectTrue, _ = email.IsFree("someone@gmail.com"); // Returns true
 var expectFalse, _ = email.IsFree("someone@acme.com"); // Returns false
