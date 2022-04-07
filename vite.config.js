@@ -5,7 +5,7 @@ module.exports = defineConfig({
   test: {},
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'lib/main.js'),
+      entry: path.resolve(__dirname, 'lib/email.js'),
       name: 'BusinessEmail',
       fileName: (format) => `is-free-email.${format}.js`,
     },

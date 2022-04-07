@@ -6,7 +6,7 @@ const prefix = 'freemail_domains ';
 const url =
   'https://svn.apache.org/repos/asf/spamassassin/trunk/rules/20_freemail_domains.cf';
 const temp = 'temp.txt';
-const dest = 'lib/freemail.json';
+const dest = 'data/freemail.json';
 
 /**
  * @param {string} url
