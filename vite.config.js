@@ -1,13 +1,13 @@
-const path = require('path');
-const {defineConfig} = require('vitest/config');
+import {defineConfig} from 'vitest/config';
+import {resolve} from 'path';
 
-module.exports = defineConfig({
+export default defineConfig({
   test: {},
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'lib/email.js'),
-      name: 'BusinessEmail',
-      fileName: (format) => `is-free-email.${format}.js`,
+      entry: resolve(__dirname, 'lib/email.js'),
+      name: 'IsFreeEmail',
+      fileName: 'is-free-email',
     },
   },
 });

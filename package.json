@@ -1,31 +1,31 @@
 {
   "name": "@withe/is-free-email",
-  "version": "0.1.0",
-  "description": "A utility to check if an email is registered from a free provider",
   "author": "Withe, Inc.",
   "license": "ISC",
+  "version": "0.1.0",
+  "description": "A utility to check if an email is registered from a free provider",
+  "type": "module",
   "files": [
     "dist",
     "types.d.ts"
   ],
-  "main": "./dist/is-free-email.umd.js",
-  "module": "./dist/is-free-email.es.js",
-  "types": "./types.d.ts",
+  "main": "./dist/is-free-email.umd.cjs",
+  "module": "./dist/is-free-email.js",
   "exports": {
     ".": {
-      "import": "./dist/is-free-email.es.js",
-      "require": "./dist/is-free-email.umd.js"
+      "import": "./dist/is-free-email.js",
+      "require": "./dist/is-free-email.umd.cjs"
     }
   },
   "scripts": {
     "build": "vite build",
     "test": "vitest run",
     "format": "prettier . -w",
-    "generate": "node scripts/free_emails.js"
+    "generate": "node scripts/free_emails.js && npm run format"
   },
   "devDependencies": {
-    "prettier": "^2.6.2",
-    "vite": "^2.9.1",
-    "vitest": "^0.9.0"
+    "prettier": "^3.0.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.2"
   }
 }

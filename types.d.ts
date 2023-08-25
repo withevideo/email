@@ -6,7 +6,7 @@
  * function, as an invalid email will likely result in the function returning
  * false incorrectly.
  *
- * @param email - The email address to check.
+ * @param email {string} - The email address to check.
  * @returns True if email is issued from a free email provider.
  *
  * @public
