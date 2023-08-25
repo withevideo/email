@@ -2,7 +2,7 @@
   "name": "@withe/is-free-email",
   "author": "Withe, Inc.",
   "license": "ISC",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A utility to check if an email is registered from a free provider",
   "type": "module",
   "files": [
