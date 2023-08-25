@@ -2,7 +2,7 @@
   "name": "@withe/is-free-email",
   "author": "Withe, Inc.",
   "license": "ISC",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A utility to check if an email is registered from a free provider",
   "type": "module",
   "files": [
@@ -11,8 +11,10 @@
   ],
   "main": "./dist/is-free-email.umd.cjs",
   "module": "./dist/is-free-email.js",
+  "types": "./types.d.ts",
   "exports": {
     ".": {
+      "types": "./types.d.ts",
       "import": "./dist/is-free-email.js",
       "require": "./dist/is-free-email.umd.cjs"
     }
